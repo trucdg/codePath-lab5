@@ -23,7 +23,6 @@ const CoinInfo = ({ image, name, symbol }) => {
             alt={`Small icon for ${name} crypto coin`}
           />
           {name} <span className="tab"></span> ${price.USD} USD
-          <br />
         </li>
       ) : null}
     </div>

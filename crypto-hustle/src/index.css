@@ -81,6 +81,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: aliceblue;
 }
 
 @media (prefers-color-scheme: light) {

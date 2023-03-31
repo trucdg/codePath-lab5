@@ -33,7 +33,6 @@ function App() {
       const json = await response.json();
       console.log(json);
       setList(json);
-      list && console.log(Object.entries(list.Data));
     };
 
     fetchAllCoinData().catch(console.error);
